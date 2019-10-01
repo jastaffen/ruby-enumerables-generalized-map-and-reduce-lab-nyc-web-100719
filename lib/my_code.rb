@@ -1,6 +1,8 @@
 # Your Code Here
 def map(array)
   new_arr = []
-  array.map { |num| new_arr << num*-1}
-  new_arr
+  i = 0
+  while i < array.length
+    yield(array[i])
+  end
 end
