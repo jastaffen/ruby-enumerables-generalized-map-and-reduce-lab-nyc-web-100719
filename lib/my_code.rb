@@ -9,7 +9,7 @@ def map(array)
   new_arr
 end
 
-def reduce(array)
+def reduce(array, sv=nil)
   i = 0
   while i < array.length
     yield(array[i])
