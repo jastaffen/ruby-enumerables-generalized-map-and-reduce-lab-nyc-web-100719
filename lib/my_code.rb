@@ -1,10 +1,10 @@
 # Your Code Here
-def my_map(array)
+def map(array)
   yield(array)
 end
 
-my_map(array) do |num|
+map(array) do |num|
   new_arr = []
-  new_arr << (num * -1)
+  new_arr.push(num * -1)
   new_arr
 end
