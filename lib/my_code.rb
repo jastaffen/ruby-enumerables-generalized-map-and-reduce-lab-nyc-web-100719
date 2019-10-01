@@ -1,2 +1,2 @@
 # Your Code Here
-map(array){|num| num * -1}
+map([1,2,3]){|num| num * -1}
