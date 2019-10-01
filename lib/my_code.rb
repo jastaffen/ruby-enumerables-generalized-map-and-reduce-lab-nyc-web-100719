@@ -9,9 +9,9 @@ def map(array)
   new_arr
 end
 
-def reduce(array, sv=nil)
-  if sv
-    sum = sv
+def reduce(array, starting_point=nil)
+  if starting_point
+    sum = starting_point
     i = 0
   else
     sum = array[0]
